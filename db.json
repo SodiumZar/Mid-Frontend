@@ -40,7 +40,7 @@
       "title": "Portfolio Website",
       "description": "A personal portfolio website built with React and Tailwind CSS to showcase my projects and skills",
       "technologies": ["React", "Tailwind CSS", "Vite"],
-      "image": "/projects/portfolio.jpg",
+      "image": "/images/projects/portfolio.jpg",
       "github": "https://github.com/SodiumZar/Mid-Frontend",
       "demo": "#"
     }

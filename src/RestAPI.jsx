@@ -1,20 +1,23 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import Navbar from './components/Navbar/index.jsx';
+import Hero from './components/Hero/index.jsx';
+import About from './components/About/index.jsx';
+import Skills from './components/Skills/index.jsx';
+import Projects from './components/Projects/index.jsx';
+import Contact from './components/Contact/index.jsx';
+import Footer from './components/Footer/index.jsx';
 
 const RestAPI = () => {
     return (
         <>
-        <div className="min-h-screen bg-gray-100">
             <Navbar />
-            
-            {/* Other components will go here */}
-            <main>
-                <div className="container mx-auto p-8">
-                    <h1 className="text-3xl font-bold">Welcome to My Portfolio</h1>
-                </div>
-            </main>
-        </div>
+            <Hero />
+            <About />
+            <Skills />
+            <Projects />
+            <Contact />
+            <Footer />
         </>
     );
 };

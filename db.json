@@ -6,12 +6,14 @@
     "year": "Third Year",
     "semester": "5th Semester",
     "email": "nazarya.kandou@example.com",
-    "location": "Indonesia"
+    "location": "Indonesia",
+    "image": "/images/profile/hero-photo.jpg"
   },
   
   "about": {
     "bio": "A passionate informatics student with a keen interest in web development and software engineering. Currently in my third year at Universitas Kelabat, I'm always eager to learn new technologies and build innovative solutions.",
-    "interests": ["Web Development", "Software Engineering", "UI/UX Design", "Problem Solving"]
+    "interests": ["Web Development", "Software Engineering", "UI/UX Design", "Problem Solving"],
+    "image": "/images/profile/about-photo.jpg"
   },
   
   "skills": [

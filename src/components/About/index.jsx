@@ -29,24 +29,38 @@ const About = () => {
           About Me
         </h2>
         
-        <div className="max-w-3xl mx-auto">
-          <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-            {about.bio}
-          </p>
-          
-          <div>
-            <h3 className="text-2xl font-semibold text-gray-800 mb-4">
-              Interests
-            </h3>
-            <div className="flex flex-wrap gap-3">
-              {about.interests.map((interest, index) => (
-                <span 
-                  key={index}
-                  className="bg-indigo-100 text-indigo-700 px-4 py-2 rounded-full font-medium"
-                >
-                  {interest}
-                </span>
-              ))}
+        <div className="max-w-4xl mx-auto">
+          <div className="flex flex-col md:flex-row gap-8 items-start">
+            {/* About Image */}
+            <div className="shrink-0 mx-auto md:mx-0">
+              <img 
+                src={about.image} 
+                alt="About me"
+                className="w-64 h-64 rounded-lg object-cover shadow-lg"
+              />
+            </div>
+            
+            {/* About Content */}
+            <div className="flex-1">
+              <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+                {about.bio}
+              </p>
+              
+              <div>
+                <h3 className="text-2xl font-semibold text-gray-800 mb-4">
+                  Interests
+                </h3>
+                <div className="flex flex-wrap gap-3">
+                  {about.interests.map((interest, index) => (
+                    <span 
+                      key={index}
+                      className="bg-indigo-100 text-indigo-700 px-4 py-2 rounded-full font-medium"
+                    >
+                      {interest}
+                    </span>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
         </div>

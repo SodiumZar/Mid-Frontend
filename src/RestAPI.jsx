@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import Navbar from './src/components/Navbar/index.jsx';
+import Navbar from './components/Navbar/index.jsx';
 
 const RestAPI = () => {
     return (
